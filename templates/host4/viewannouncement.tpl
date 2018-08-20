@@ -19,7 +19,7 @@
 {/if}
 
 <p>
-    <strong>{$carbon->createFromTimestamp($timestamp)->format('l, F j, Y')}</strong>
+    <strong>{$carbon->createFromTimestamp($timestamp)->format('d/m/Y')}</strong>
 </p>
 
 {if $googleplus1}

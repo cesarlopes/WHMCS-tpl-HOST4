@@ -17,7 +17,7 @@
             <div class="announcement-single">
                 <h3>
                     <span class="label label-default">
-                        {$carbon->translatePassedToFormat($announcement.rawDate, 'M jS')}
+                        {$carbon->translatePassedToFormat($announcement.rawDate, 'd/m/y')}
                     </span>
                     <a href="{routePath('announcement-view', $announcement.id, $announcement.urlfriendlytitle)}">{$announcement.title}</a>
                 </h3>
@@ -41,7 +41,7 @@
                                 return;
                             }
                             js = d.createElement(s); js.id = id;
-                            js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+                            js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1";
                             fjs.parentNode.insertBefore(js, fjs);
                         }(document, 'script', 'facebook-jssdk'));
                     </script>

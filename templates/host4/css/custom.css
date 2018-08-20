@@ -6,3 +6,99 @@
     defined here.
 
 ***************************************************** */
+/*HOST4*/
+.navbar-main{	
+	background-color:#4C4C4C;
+	font-size:14px;
+}
+
+.navbar .nav > li > a {
+	float: none;
+	padding: 9px 10px 11px;
+	line-height: 19px;
+	color: #fff;
+	text-decoration: none;
+}
+.navbar .nav > li > a:hover {
+	background-color: #f99c19;
+	text-shadow:none;
+}
+.dropdown-menu a:hover {
+	background-color: #f99c19 !important;
+}
+
+#whmcsimglogo {
+	width:100%;
+	max-width:569px;
+}
+
+section#header {
+    margin: 0;
+    padding: 10px 0;
+    background: #fff;
+		border-top:5px solid #F99C19;
+}
+
+.navbar-main li.account {
+    background-color: #222;
+}
+.navbar-main .navbar-nav > .active > a, .navbar-main .navbar-nav > .active > a:focus, .navbar-main .navbar-nav > .active > a:hover, .navbar-main .navbar-nav > .open > a, .navbar-main .navbar-nav > .open > a:focus, .navbar-main .navbar-nav > .open > a:hover, .navbar-main .navbar-nav > li > a:focus, .navbar-main .navbar-nav > li > a:hover {
+    color: #eee;
+    background-color: #222;
+}
+.invoice-container {
+    max-width: 960px;
+}
+
+@media only screen and (max-width: 1024px) {
+	#header .container a img {
+		width:360px;
+	}
+}
+
+/*
+.footerdivider {
+	margin: 0 auto;
+	padding: 0;
+	width: 960px;
+	height: 5px;
+	background-color: #222;
+	background-repeat: repeat-x;
+	background-image: -khtml-gradient(linear, left top, left bottom, from(#333333), to(#222222));
+	background-image: -moz-linear-gradient(top, #333333, #222222);
+	background-image: -ms-linear-gradient(top, #333333, #222222);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #333333), color-stop(100%, #222222));
+	background-image: -webkit-linear-gradient(top, #333333, #222222);
+	background-image: -o-linear-gradient(top, #333333, #222222);
+	background-image: linear-gradient(top, #333333, #222222);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#333333', endColorstr='#222222', GradientType=0);
+	-webkit-border-radius: 2px;
+	-o-border-radius: 2px;
+	border-radius: 2px;
+}
+
+section#footer p {
+    margin: 25px 0 0 0;
+    border-top:5px solid #222;
+    line-height: 60px;
+    color: #666;
+    font-size: 0.7em;
+    text-align: center;
+		background-color: #424242;
+		color:#aaa;
+		text-align:center;
+}
+.whmcscontainer .footer #copyright {
+	float:none;
+}
+
+.announcement-single h2{ font-size: 22px; }
+div.announcement-single .label{background:none;color:#222;font-size: 22px;padding:0;margin:0;}
+div.announcement-single .label:after {  content: "-"; }
+
+@media only screen and (max-width: 1024px) {
+	.breadcrumb {
+		display:none;
+	}
+}
+*/

@@ -124,3 +124,8 @@ body {
 .invoice-container td.no-line {
     border: 0;
 }
+
+/* LogoTipo */
+.invoice-header .invoice-col p img {
+	width: 360px;	
+}

@@ -7,7 +7,7 @@
 
 ***************************************************** */
 /*HOST4*/
-.navbar-main{	
+.navbar-main{
 	background-color:#4C4C4C;
 	font-size:14px;
 }
@@ -54,6 +54,16 @@ section#header {
 	#header .container a img {
 		width:360px;
 	}
+}
+
+.home-shortcuts {
+    background: #f99c19;
+}
+.home-shortcuts li {
+    border-right: 1px solid #ffb001;
+}
+.home-shortcuts li:first-child {
+    border-left: 1px solid #ffb001;
 }
 
 /*

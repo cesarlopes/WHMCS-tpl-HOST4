@@ -20,7 +20,9 @@
                         <a menuItemName="{$childItem->getName()}" href="{$childItem->getUri()}" class="list-group-item{if $childItem->isDisabled()} disabled{/if}{if $childItem->getClass()} {$childItem->getClass()}{/if}{if $childItem->isCurrent()} active{/if}"{if $childItem->getAttribute('dataToggleTab')} data-toggle="tab"{/if}{if $childItem->getAttribute('target')} target="{$childItem->getAttribute('target')}"{/if} id="{$childItem->getId()}">
                             {if $childItem->hasBadge()}<span class="badge">{$childItem->getBadge()}</span>{/if}
                             {if $childItem->hasIcon()}<i class="{$childItem->getIcon()}"></i>&nbsp;{/if}
-                            {$childItem->getLabel()}
+                            {if  $item->getName() eq "Announcements Months"}{$childItem->getLabel()|replace:'Jan ':'Janeiro de '|replace:'Feb ':'Fevereiro de '|replace:'Mar ':'Março de '|replace:'Apr ':'Abril de '|replace:'May ':'Maio de '|replace:'Jun ':'Junho de '|replace:'Jul ':'Julho de '|replace:'Aug ':'Agosto de '|replace:'Sep ':'Setembro de '|replace:'Oct ':'Outubro de '|replace:'Nov ':'Novembro de '|replace:'Dec ':'Dezembro de  '|replace:'Mai ':'Maio de  '|replace:'Out ':'Outubro de  '|replace:'Abr ':'Abril de  '}{else}
+                            {if  $item->getName() eq "Recent Tickets"}{$childItem->getLabel()|replace:'minutes ':'minutos '|replace:'minute ':'minuto '|replace:'hours ':'horas '|replace:'hour ':'hora '|replace:'seconds ':'segundos '|replace:'days ':'dias '|replace:'day ':'dia '|replace:'week ':'semana '|replace:'weeks ':'semanas '|replace:'month ':'mês '|replace:'months ':'meses '|replace:'year ':'ano '|replace:'years ':'anos '|replace:' ago':' atrás'}{else}
+                            {$childItem->getLabel()}{/if}{/if}
                         </a>
                     {else}
                         <div menuItemName="{$childItem->getName()}" class="list-group-item{if $childItem->getClass()} {$childItem->getClass()}{/if}" id="{$childItem->getId()}">

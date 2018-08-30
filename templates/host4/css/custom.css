@@ -66,6 +66,25 @@ section#header {
     border-left: 1px solid #ffb001;
 }
 
+.kb-article-content, .kb-article-content p {
+    margin: 0 0 2rem;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    font-weight: 400;
+		font-family: "Open Sans",Verdana,Tahoma,serif;
+    color: #333;
+}
+/*
+body, button, input, select, textarea {
+	margin: 0 0 2rem;
+	font-size: 1.6rem;
+	line-height: 2.6rem;
+	font-weight: 400;
+	font-family: "Open Sans",Verdana,Tahoma,serif;
+	color: #333;
+}
+*/
+
 /*
 .footerdivider {
 	margin: 0 auto;

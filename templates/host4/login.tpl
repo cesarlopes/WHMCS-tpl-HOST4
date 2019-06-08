@@ -24,7 +24,34 @@
                 <div class="form-group">
                     <label for="inputPassword">{$LANG.clientareapassword}</label>
                     <input type="password" name="password" class="form-control" id="inputPassword" placeholder="{$LANG.clientareapassword}" autocomplete="off" >
+                    <span toggle="#password-field" data-toggle="tooltip" data-html="true" data-placement="right" title="Exibir Senha" class="fa fa-fw fa-eye fa-lg field-icon toggle-password"></span>
                 </div>
+
+<style>								
+.field-icon {
+  float: right;
+  margin-right: 10px;
+  margin-left: -25px;
+  margin-top: -25px;
+  position: relative;
+  z-index: 2;
+}
+</style>
+{literal}
+<script type='text/javascript'>
+jQuery(document).ready(function(){
+$(".toggle-password").click(function() {
+	$(this).toggleClass("fa-eye fa-eye-slash");
+	var input = jQuery('#inputPassword');
+		if (input.attr("type") == "password") {
+		input.attr("type", "text");
+		} else {
+		input.attr("type", "password");
+		}
+});
+}); 
+</script>
+{/literal}
 
                 <div class="checkbox">
                     <label>

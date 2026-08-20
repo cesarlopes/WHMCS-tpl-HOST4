@@ -38,6 +38,7 @@ Este projeto concentra a personalização visual do WHMCS utilizada pela HOST4. 
 ## Contribuindo
 
 Melhorias de documentação, correções e sugestões podem ser enviadas por meio de Pull Requests.
+Mantenha cada Pull Request focado na alteração proposta e evite incluir arquivos gerados ou modificações não relacionadas.
 
 ## Uso e licença
 

@@ -35,6 +35,11 @@ Os arquivos `.tpl` são os templates do WHMCS. O tema `host4` contém também re
 
 Este projeto concentra a personalização visual do WHMCS utilizada pela HOST4. Para alterações, envie uma proposta que descreva a tela afetada e inclua validação em ambiente de homologação.
 
+## Contribuindo
+
+Melhorias de documentação, correções e sugestões podem ser enviadas por meio de Pull Requests.
+Mantenha cada Pull Request focado na alteração proposta e evite incluir arquivos gerados ou modificações não relacionadas.
+
 ## Uso e licença
 
 O repositório não contém um arquivo de licença. Antes de reutilizar ou redistribuir seus arquivos, confirme as permissões aplicáveis com os responsáveis pelo projeto e observe as licenças dos componentes de terceiros incluídos.
